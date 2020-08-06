@@ -10,11 +10,12 @@ banner="""
 print(banner)
 
 print("""
-1)trojan yapıcı
+1)trojan yapma
 2)nmap vuln scanner
 3)sqlmap
 4)ip tarama
-5)sızmaya hazırlan""")
+5)payload
+""")
 girdi=input("----->")
 
 if (girdi==1):
