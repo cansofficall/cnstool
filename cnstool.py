@@ -17,6 +17,7 @@ print("""
 4)ip tarama
 5)payload
 6)nikto
+7)gerekli itemler
 """)
 veri=input("----->")
 
