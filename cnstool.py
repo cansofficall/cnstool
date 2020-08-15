@@ -44,7 +44,7 @@ elif veri == 6 :
      os.system("nikto")
 
 elif veri == 7 :
-     os.system("apt update && pkg upgrade && pkg install python && pkg install python2 && pkg install php && pkg install curl && pkg install perl ")
+     os.system("apt update && pkg upgrade && pkg install python && pkg install python2 && pkg install php && pkg install curl && pkg install perl && git clone https://github.com/sqlmapproject/sqlmap && pkg install nmap && git clone https://github.com/cansofficall/CnsAdScn && git clone https://github.com/cansofficall/salvo ")
 
 else :
     print("hata aldim")
