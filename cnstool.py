@@ -1,4 +1,4 @@
-mport os
+import os
 # -*- encoding: utf-8 -*- #
 
 os.system("clear")
