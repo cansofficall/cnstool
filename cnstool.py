@@ -12,11 +12,11 @@ print(banner)
 
 print("""
 1)trojan yaz
-2)nmap başlat
-3)sqlmap i başlat
+2)nmap baslat
+3)sqlmap i baslat
 4)dns tara
-5)msf başla
-6)nikto aç
+5)msf basla
+6)nikto ac
 7)gerekli itemler
 """)
 veri=input("----->")
