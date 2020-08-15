@@ -11,12 +11,12 @@ CANS OFFICIALL WEB TOOLS
 print(banner)
 
 print("""
-1)trojan
-2)nmap vuln scanner
-3)sqlmap
-4)ip tarama
-5)payload
-6)nikto
+1)trojan yaz
+2)nmap başlat
+3)sqlmap i başlat
+4)dns tara
+5)msf başla
+6)nikto aç
 7)gerekli itemler
 """)
 veri=input("----->")
